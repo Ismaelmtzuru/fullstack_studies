@@ -1,0 +1,27 @@
+@font-face{
+    font-family:Roboto_Mono;
+    src: url(css\css\03-fuentes\font\Krona_One,Montserrat,Roboto_Mono\Roboto_Mono\RobotoMono-VariableFont_wght.ttf);
+}
+
+    @font-face{
+        font-family: Montserrat;
+        src: url(css\css\03-fuentes\font\Krona_One,Montserrat,Roboto_Mono\Montserrat\Montserrat-VariableFont_wght.ttf);
+    }
+
+h1{
+    font-family: "Roboto Mono", monospace;
+    font-style:italic;
+    text-transform:uppercase;
+    font-size:40px;
+}
+
+h3{
+    font-family: "Roboto Mono", monospace;
+
+}
+
+p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+  

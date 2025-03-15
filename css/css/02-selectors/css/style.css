@@ -1,0 +1,91 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    background:red;
+    color:rgb(13, 241, 51);
+    padding:10px;
+}
+
+a{
+    font-size:18px;
+    color:yellowgreen;
+    text-decoration:none;
+}
+
+footer a{
+    color: red;
+}
+
+#descripcion{
+    color:brown;
+    border:5px solid black;
+    padding:15px;
+}
+#title{
+    color:green;
+    border:5px solid black;
+    padding:15px;
+}
+
+.parrafo1 , .parrafo3{
+    color:rgb(221, 15, 176);
+    background-color:black;
+    padding:10px;
+}
+
+.parrafo2{
+    color:blue;
+    font-style:italic;
+    font-weight: bold;
+}
+
+#usuario form{
+    border:5px solid blue;
+    margin-top:15px;
+    margin-bottom:15px;
+    padding:20px;
+}
+
+#usuario form *{
+    display:block; /*sirve para que cada uno tenga su propia linea o fila*/
+}
+
+a[href^="www"]{
+    color:blueviolet;
+}
+
+a[href$="mx"]{
+    color:orange;
+}
+
+a[href*="web"]{
+    color:black;
+}
+
+input[type="text"]{
+    color:red;
+    margin-bottom:15px;
+    padding:10px;
+    width:300px
+}
+
+input[type="submit"]{
+    background-color:green;
+    color:antiquewhite;
+    padding:15px;
+    border-radius:20px;
+    font-size:20px;
+    text-transform:uppercase;
+    border: 1px solid black;
+    cursor:pointer;
+}
+
+#menu>li>a{
+    background-color:salmon;
+}
+
+#hello h2{
+    background:brown;
+}
