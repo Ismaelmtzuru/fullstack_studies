@@ -1,0 +1,36 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    padding:40px;
+}
+#cajas{
+    max-width:1035px;
+    border:2px solid black;
+}
+.caja{
+    display:block;
+    width:250px;
+    height:250px;
+    background-color:lightblue;
+    border:5px solid black;
+    margin-top:15px;
+    margin-bottom:15px;
+    margin-left:5px;
+    padding:25px;
+    float:left;
+}
+
+.caja p{
+    font-weight:bold;
+    text-align:center;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height:250px;
+}
+
+.clearfix{
+    float:none;
+    clear:both;
+}
